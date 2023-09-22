@@ -38,3 +38,50 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+a {
+  font-size: 18px;
+}
+
+
+/* SITE-HEADER */
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.header__info {
+  flex-grow: 1;
+}
+
+.header__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.header__subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.header__socials {
+}
